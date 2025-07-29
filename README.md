@@ -1,12 +1,91 @@
-# React + Vite
+# 🎬 Movie Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Film Severlerin Yeni Adresi!**  
+Modern bir film web uygulaması — React, Vite ve Tailwind CSS ile geliştirildi.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Film Arama:** Favori filminizi kolayca bulun.  
+- 📋 **Film Listeleme:** En yeni ve en popüler filmleri keşfedin.  
+- 🎞️ **Film Detay Sayfaları:** Filmler hakkında detaylı bilgi alın.  
+- 📱 **Responsive Tasarım:** Her cihazda sorunsuz ve kullanıcı dostu deneyim.
 
-## Expanding the ESLint configuration
+## 🛠️ Kurulum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+```bash
+git clone https://github.com/kullaniciadi/movie-web-app.git
+cd movie-web-app
+npm install
+npm run dev
+
+🧰 Kullanılan Teknolojiler
+⚛️ React — Bileşen tabanlı kullanıcı arayüzü
+
+⚡ Vite — Hızlı geliştirme ve derleme aracı
+
+🎨 Tailwind CSS — Modern ve utility-first stil kütüphanesi
+
+🧩 Lucide React — Hafif ve özelleştirilebilir ikonlar
+
+🎥 TMDb API — Film verileri kaynağı
+
+Not: TMDb API anahtarı src/services/api.js dosyasında tanımlanmıştır.
+Daha güvenli bir çözüm için .env dosyası kullanılması önerilir.
+
+src/
+├── components/       # Uygulama bileşenleri
+├── hooks/            # Özel React hook'ları
+├── services/         # API işlemleri
+├── App.jsx           # Ana uygulama bileşeni
+├── index.css         # Global stiller
+└── main.jsx          # Giriş noktası
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🎬 Movie Web App
+
+**The New Destination for Movie Lovers!**  
+A modern movie web application built with React, Vite, and Tailwind CSS.
+
+## 🚀 Features
+
+- 🔍 **Movie Search:** Easily find your favorite movies.  
+- 📋 **Movie Listing:** Discover the latest and most popular films.  
+- 🎞️ **Movie Detail Pages:** Get detailed information about each movie.  
+- 📱 **Responsive Design:** Enjoy a seamless experience on all devices.
+
+## 🛠️ Installation
+
+To run the project locally, follow these steps:
+
+```bash
+git clone https://github.com/username/movie-web-app.git
+cd movie-web-app
+npm install
+npm run dev
+
+🧰 Technologies Used
+⚛️ React — Component-based UI framework
+
+⚡ Vite — Fast development and build tool
+
+🎨 Tailwind CSS — Utility-first CSS framework
+
+🧩 Lucide React — Customizable icon library
+
+🎥 TMDb API — Movie data provider
+
+Note: The TMDb API key is defined in the src/services/api.js file.
+For better security, it's recommended to store it in a .env file.
+
+src/
+├── components/       # Reusable UI components
+├── hooks/            # Custom React hooks
+├── services/         # API services
+├── App.jsx           # Main application component
+├── index.css         # Global styles
+└── main.jsx          # Entry point
+
+
